@@ -27,7 +27,7 @@ def candies():  # see cookie definition, it's the same concept but with candy.
 
 
 def avg_cookies():  # defines average
-    print(f"The average cookie sales was {avg1}")
+    print(f"The average cookie sales was {total_cookies}")
 
 
 def avg_candies():  # defines average
@@ -67,7 +67,7 @@ print("")
 input("Press ENTER/RETURN")
 print("")
 # Lines 70 through 73 calculate the total and average it out.
-total_cookies = int((cookie_list[0] + cookie_list[1] + cookie_list[2] + cookie_list[3] + cookie_list[4] + cookie_list[5]))
+total_cookies = int((cookie_list[0] + cookie_list[1] + cookie_list[2] + cookie_list[3] + cookie_list[4] + cookie_list[5] / 6))
 avg1 = (int(total_cookies) / 6) # Cookie Average
 total_candies = int((candy_list[0] + candy_list[1] + candy_list[2] + candy_list[3] + candy_list[4] + candy_list[5]))
 avg2 = (int(total_candies) / 6) # Candy Average
@@ -87,7 +87,7 @@ min_candy()
 print("")
 input("Press ENTER/RETURN")
 # conclusion
-if avg1 < avg2:  # This is the if statement that determines what is mot popular.
+if avg1 < avg2:  # This is the if statement that determines what is most popular.
     print("Candy is the most popular item we sell.")
 else:
     print("Cookies are the most popular items we sell")
