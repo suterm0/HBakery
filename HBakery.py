@@ -1,7 +1,8 @@
 # Markhus Dammar
 # 10/14/19
 # This program is demonstrating lists, loops, and functions with the Bakery Entry Project
-
+# condense your code to make it easier to read but other than that its good
+# all def statements are good
 
 # init
 cookie_list = []  # creates the cookie list
@@ -59,7 +60,7 @@ def min_candy():  # defines min
 cookies()
 candies()
 input("Press ENTER/RETURN to view the compiled data")
-print("Here is the list of cookies sales", cookie_list)
+print("Here is the list of cookies sales", cookie_list)         # this is all stuff that could be a define statement to condense code
 print("")
 input("Press ENTER/RETURN")
 print("Here is the list of candy sales", candy_list)
